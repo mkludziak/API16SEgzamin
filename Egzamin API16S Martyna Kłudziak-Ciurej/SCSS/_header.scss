@@ -1,0 +1,27 @@
+.pageHeader {
+    padding: 12px 60px;
+    @include flex(column,space-between,center);
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    h3 {
+        @include text(rgb(27, 33, 137),20px,600,2px);
+        align-items: center; 
+    }
+
+    h5 {
+      font-family: 'Times New Roman', Times, serif;
+      color: green;
+      align-items: center;
+      
+
+    }
+    nav a {
+        @include text(rgb(64, 26, 26),14px,600,1px);
+        margin-right: 10px;
+        &:hover {
+            color: hsl(180, 59%, 66%);         
+        }
+    }
+}

@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #d38484;
+}
+
+.pageHeader {
+  padding: 12px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.pageHeader h3 {
+  color: #ebd2e6;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  align-items: center;
+}
+
+.pageHeader h5 {
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(204, 125, 204);
+  align-items: center;
+}
+
+.pageHeader nav a {
+  color: #e07e7e;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-right: 10px;
+}
+
+.pageHeader nav a:hover {
+  color: #b779ca;
+}
+
+.myfirstForm {
+  background-color: #b7ebeb;
+  padding: 12px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0px;
+  position: fixed;
+  top: 20vh;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */
